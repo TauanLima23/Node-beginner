@@ -13,7 +13,7 @@ const sql = postgres({
 export { sql };
 
 // Função para testar a conexão
-const testConnection = async () => {
+/*const testConnection = async () => {
   try {
     const result = await sql`SELECT 'Conexão bem-sucedida!' AS message`;
     console.log(result[0].message); // Exibe a mensagem de sucesso
@@ -25,6 +25,6 @@ const testConnection = async () => {
 };
 
 // Testa a conexão
-testConnection();
+testConnection();*/
 
 

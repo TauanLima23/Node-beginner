@@ -3,27 +3,26 @@ Content-Type: application/json
 Accept-Language: pt
 
 {
-    "title": "node",
+    "title": "Video 03",
     "description": "Esse é o primeiro video",
     "duration": 120
 }
 
 ###
 
-GET  http://localhost:3333/videos?search=node
-
+GET  http://localhost:3333/videos
 ###
 
-PUT  http://localhost:3333/videos/b6dd2d29-3eba-4a62-a480-60a49ba0f0d1
+PUT  http://localhost:3333/videos/1f11cb08-2b99-4134-a5b0-1186e39058ff
 Content-Type: application/json
 Accept-Language: pt
 
 {
-    "title": "Video 223",
+    "title": "Video 01",
     "description": "Esse é o primeiro video",
     "duration": 120
 }
 
 ###
 
-DELETE   http://localhost:3333/videos/b6dd2d29-3eba-4a62-a480-60a49ba0f0d1
+DELETE   http://localhost:3333/videos/15161bac-577e-47af-aa2e-b891239e9392

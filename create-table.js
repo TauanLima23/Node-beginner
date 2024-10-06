@@ -1,7 +1,8 @@
 import { sql } from './nodedb.js';
 
 sql`
-CREATE TABLE TESTE (
+CREATE TABLE videos (
+    ID TEXT
     TITLE TEXT,
     DESCRIPTION TEXT,
     DURATION INTEGER
